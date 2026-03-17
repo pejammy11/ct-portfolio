@@ -16,3 +16,21 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.box {
+  background: #456882;
+  padding: 40px;
+  flex: 1 1 200px;
+  text-align: center;
+  color: #E3E3E3;
+  border-radius: 20px;
+}
