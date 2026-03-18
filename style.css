@@ -9,6 +9,24 @@ h1{
     font-size: 80px;
 }
 
+.photoandintro{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img.trumpphoto{
+  width: 500px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.box1{
+  width: 500px;
+  padding: 50px;
+}
+
 p{
   font-size: 30px;
   font-family: Boldnose;
@@ -34,6 +52,10 @@ body {
   text-align: center;
   color: #E3E3E3;
   border-radius: 20px;
+}
+
+.box:hover {
+    background-color: #234C6A;
 }
 
 .proj1link {
