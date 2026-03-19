@@ -12,6 +12,7 @@ header {
 .headertitle{
   color: #1B3C53;
   font-family: "Liter", sans-serif;
+  text-decoration: none;
   margin: 0;
 }
 
@@ -21,11 +22,12 @@ nav {
 }
 
 .nav-item {
-    border: 1px solid #000;
+    border: 2px solid #1B3C53;
     padding: 8px 15px; 
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #1B3C53;
 }
 
 .headerlinks{
@@ -62,6 +64,7 @@ img.trumpphoto{
 p{
   font-size: 30px;
   font-family: "Liter", sans-serif;
+  color: #1B3C53;
 }
 
 body {
