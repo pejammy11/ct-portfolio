@@ -2,14 +2,36 @@ html{
     background-color: #E3E3E3;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px;
+}
+
 .headertitle{
   color: #1B3C53;
   font-family: "Liter", sans-serif;
+  margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    border: 1px solid #000;
+    padding: 8px 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .headerlinks{
     text-decoration: none;
     display: block;
+    color: inherit;
 }
 
 .welcome{
