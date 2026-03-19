@@ -2,10 +2,20 @@ html{
     background-color: #E3E3E3;
 }
 
-h1{
+.headertitle{
+  color: #1B3C53;
+  font-family: "Liter", sans-serif;
+}
+
+.headerlinks{
+    text-decoration: none;
+    display: block;
+}
+
+.welcome{
     text-align: center;
     color: #1B3C53;
-    font-family: Boldonse;
+    font-family: "Boldonse", sans-serif;
     font-size: 80px;
 }
 
@@ -29,7 +39,7 @@ img.trumpphoto{
 
 p{
   font-size: 30px;
-  font-family: Boldnose;
+  font-family: "Liter", sans-serif;
 }
 
 body {
