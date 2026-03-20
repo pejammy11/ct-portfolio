@@ -112,3 +112,13 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+.exploregit {
+  text-decoration: none;
+  background-color: #456882;
+  color: #E3E3E3;  
+}
+
+.copyright {
+  font-size: 10px;
+}
