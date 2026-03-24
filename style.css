@@ -111,17 +111,46 @@ p {
   text-align: center;
   color: #E3E3E3;
   border-radius: 20px;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.boxa {
+  animation-delay: 0.1s;
+}
+
+.boxb {
+  animation-delay: 0.4s;
+}
+
+.boxc {
+  animation-delay: 0.7s;
+}
+
+.boxd {
+  animation-delay: 1.0s;
 }
 
 .box:hover {
   background-color: #234C6A;
 }
 
-
-
 footer {
   background-color: #1B3C53;
-  width: 100%;
+  width: calc(100% - 10px);
   padding: 10px;
 }
 
