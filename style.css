@@ -76,13 +76,6 @@ nav {
   font-size: 70px;
 }
 
-.reflection {
-  text-align: right;
-  color: #1B3C53;
-  font-family: "Boldonse", sans-serif;
-  font-size: 50px;
-}
-
 .photoandintro {
   display: flex;
   justify-content: center;
@@ -102,13 +95,13 @@ img.photo {
   padding: 50px;
 }
 
-h2 {
+.abcd {
   padding: 40px;
   margin-top: 48px;
 }
 
 p {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Liter", sans-serif;
   color: #1B3C53;
 }
@@ -186,7 +179,6 @@ footer {
   padding: 10px;
 }
 
-
 .exploregit {
   text-decoration: none;
   color: #E3E3E3;
@@ -197,16 +189,53 @@ footer {
   color: #E3E3E3;
 }
 
+.REF {
+  text-align: left;
+  color: #1B3C53;
+  font-family: "Boldonse", sans-serif;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
 .reflection {
   display: flex;
   align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.ref_img {
-  width: 50%;
+.refimg {
+  width: 600px;
+  height: 800px;
+  border-radius: 10px;
+  margin-right: 200px;
 }
 
-.reflection_intro {
-  width: 50%;
+.refintro {
+  width: 800px;
+  font-size: 35px;
+  margin-left: 100px;
+  text-align: left;
+  color: #1B3C53;
+  margin-right: 200px;
+}
+
+.designtimeline {
+  margin: 50px;
+  font-size: 35px;
+}
+
+.summarytitle {
+  text-align: left;
+  color: #1B3C53;
+  font-family: "Boldonse", sans-serif;
+  font-size: 80px;
+  margin-left: 100px;
+  margin-top: 200px;
+
+}
+
+.summarytext {
+  margin: 50px;
+  font-size: 35px;
+  margin-bottom: 200px;
 }
