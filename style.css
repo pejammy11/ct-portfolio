@@ -100,7 +100,7 @@ img.photo {
   margin-top: 48px;
 }
 
-p {
+.start1 {
   font-size: 35px;
   font-family: "Liter", sans-serif;
   color: #1B3C53;
@@ -204,38 +204,42 @@ footer {
 }
 
 .refimg {
-  width: 600px;
-  height: 800px;
+  width: 400px;
+  height: 600px;
   border-radius: 10px;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 .refintro {
-  width: 800px;
-  font-size: 35px;
+  width: 600px;
+  font-size: 25px;
   margin-left: 100px;
   text-align: left;
   color: #1B3C53;
   margin-right: 200px;
 }
 
-.designtimeline {
+.designtimeline p {
+  font-size: 25px;
+  font-family: "Liter", sans-serif;
+  color: #1B3C53;
   margin: 50px;
-  font-size: 35px;
 }
 
 .summarytitle {
+  font-size: 35px;
   text-align: left;
   color: #1B3C53;
   font-family: "Boldonse", sans-serif;
   font-size: 80px;
   margin-left: 100px;
-  margin-top: 200px;
-
+  margin-top: 100px;
 }
 
-.summarytext {
+.summarytext p {
+  font-size: 25px;
+  font-family: "Liter", sans-serif;
+  color: #1B3C53;
   margin: 50px;
-  font-size: 35px;
   margin-bottom: 200px;
 }
