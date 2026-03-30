@@ -101,7 +101,7 @@ img.photo {
 }
 
 .start1 {
-  font-size: 35px;
+  font-size: 20px;
   font-family: "Liter", sans-serif;
   color: #1B3C53;
 }
@@ -242,4 +242,16 @@ footer {
   color: #1B3C53;
   margin: 50px;
   margin-bottom: 200px;
+}
+
+.creditslist li {
+  font-size: 30px;
+  font-family: "Liter", sans-serif;
+  color: #234C6A;
+  list-style: none;
+  text-align: center;
+}
+
+.creditslist {
+  margin-bottom: 100px;
 }
