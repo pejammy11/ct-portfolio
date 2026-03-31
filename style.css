@@ -25,7 +25,7 @@ main {
 }
 
 .headertitle {
-  color: #001321;
+  color: #E3E3E3;
   font-family: "Liter", sans-serif;
   text-shadow: 0 0 20px #456882;
   margin: 0;
@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-item {
-  border: 2px solid #001321;
+  border: 2px solid #E3E3E3;
   padding: 8px 15px;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ nav {
 .headerlinks {
   text-decoration: none;
   display: block;
-  color: inherit;
+  color: #E3E3E3;
 }
 
 .welcome {
