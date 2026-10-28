@@ -62,6 +62,25 @@ nav {
   color: #E3E3E3;
 }
 
+.headerlinks2 {
+  text-decoration: none;
+  display: block;
+  color: #234C6A;
+}
+
+.nav-item2 {
+  border: 2px solid #234C6A;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #001321;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 10px);
+  width: 400px;
+  margin-left: 100px;
+}
+
 .welcome {
   text-align: center;
   color: #1B3C53;
