@@ -209,11 +209,24 @@ footer {
   justify-content: flex-start;
 }
 
+.dashboard {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
 .refimg {
   width: 560px;
   height: 600px;
   border-radius: 10px;
   margin-right: 100px;
+}
+
+.refimg2 {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 100px;
 }
 
 .refintro {
